@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is My project Shuhin">
+    <meta name="keywords" content="HTML,CSS,Bootstrap,JavaScript">
+    <title>Standup Project | Shuhin Rahman</title>
+    <!---Bootstrap CDN----->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!---CSS style---->
+    <link rel="stylesheet" href="style.css">
+    <!---Google font---->
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,700,900&display=swap" rel="stylesheet">
+    <!---Font awesome---->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body data-spy="scroll" data-target="#navbarResponsive">
+    <!--Heading-->
+    <head>
+        <div class="container-fluid">
+            <!--navigation-->
+            <nav class="navbar navbar-expand-md">
+                <i class="fa fa-microphone mr-2 fa-2x" aria-hidden="true"></i>
+                <a class="navbar-brand" href="#">Standup</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon">
+                    <i class="fa fa-bars fa-2x" aria-hidden="true"></i>
+                  </span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <div class="navbar-nav mx-auto">
+                        <a class="nav-item nav-link active mr-1 mr-lg-3" href="#home">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-item nav-link mr-1 mr-lg-3" href="#about">About</a>
+                        <a class="nav-item nav-link mr-1 mr-lg-3" href="#speaker">Speakers</a>
+                        <a class="nav-item nav-link mr-1 mr-lg-3" href="#schedule">Schedule</a>
+                        <a class="nav-item nav-link mr-1 mr-lg-3" href="#news">Blog</a>
+                        <a class="nav-item nav-link mr-1 mr-lg-3" href="#location">Contacts</a>
+                        <a class="btn px-2 btn-ticket" id="btn_hide" href="#ticket">Ticket</a>
+                      </div>
+                </div>
+          </nav>
+        </div>
+    </head>
+    <!--Landing page Home--->
+    <div class="container-fluid" id="home">
+        <div class="row home px-6">
+            <div class="col-md-7 d-flex align-items-center">
+                <div class="container text-light">
+                    <p>5 TO 9 MAY 2019, MARDAVALL HOTEL, NEW YORK</p>
+                    <h1>Change Your Mind <br> To Become Sucess</h1>
+                    <a href="#" class="btn btn-ticket px-5">Buy Ticket</a>
+                </div>
+            </div>
+            <div class="col-md-5 d-flex align-items-end">
+                <div class="container">
+                    <img src="img/businessman1.png" alt="businessman" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Countdown Section-->
+    <div class="container-fluid count_down" id="count">
+        <div class="row py-5 text-light px-6">
+            <div class="col-md-5">
+                <p>Conference Date</p>
+                <h3>Count Every Second <br> Until the Event</h3>
+            </div>
+            <div class="col-md-7">
+                <div class="row text-center mx-5">
+                    <div class="col-md-3  col-4 count_col">
+                        <h5 id="day">30</h5>
+                        <p>Days</p>
+                    </div>
+                    <div class="col-md-3  col-4 count_col">
+                        <h5 id="hr">00</h5>
+                        <p>Hours</p>
+                    </div>
+                    <div class="col-md-3  col-4 count_col">
+                        <h5 id="min">00</h5>
+                        <p>Minutes</p>
+                    </div>
+                    <div class="col-md-3  col-4 count_col">
+                        <h5 id="sec">5</h5>
+                        <p>Seconds</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--About section-->
+   <div class="container about" id="about">
+    <div class="row">
+        <div class="col-md-6 mb-5">
+            <img src="https://colorlib.com/preview/theme/manup/img/h-about.jpg" alt="beti" class="img-fluid">
+        </div>
+        <div class="col-md-6 d-flex align-items-center">
+             <div class="container text-justify">
+                 <h2 class="mb-4">About Conference</h2>
+                 <p>When I first got into the online advertising business, I was looking for the magical combination that would put my website into the top search engine rankings, catapult me to the forefront of the minds or individuals looking to buy my product, and generally make me rich beyond my wildest dreams! After succeeding in the business for this long, I’m able to look back on my old self with this kind of thinking and shake my head.</p>
+                 <ul>
+                     <li>Write On Your Business Card</li>
+                     <li>Advertising Outdoors</li>
+                     <li>Effective Advertising Pointers</li>
+                     <li> Kook 2 Directory Add Url Free</li>
+                 </ul>
+                 <a href="#"><p class="btn discover_btn">Discover now</p></a>
+             </div>
+        </div>
+    </div>
+</div>
+<!--Who's speaking--->
+<div class="container-fluid speaker" id="speaker" >
+    <h2 class="text-center">Who’s speaking</h2>
+    <p class="text-center mb-5">These are our communicators, you can see each person information</p>
+        <div class="row">
+            <div class="col-md-3">
+                <img src="img/6.jpeg" alt="1" class="img-fluid">
+            </div>
+            <div class="col-md-3">
+                <img src="img/1.jpeg" alt="2" class="img-fluid">
+            </div>
+            <div class="col-md-3">
+                <img src="img/2.jpeg" alt="3" class="img-fluid">
+            </div>
+            <div class="col-md-3">
+                <img src="img/3.jpeg" alt="4" class="img-fluid">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3">
+                <img src="img/4.jpeg" alt="4" class="img-fluid">
+            </div>
+            <div class="col-md-3">
+                <img src="img/5.jpeg" alt="4" class="img-fluid">
+            </div>
+            <div class="col-md-3">
+                <img src="img/7.jpeg" alt="4" class="img-fluid">
+            </div>
+            <div class="col-md-3">
+                <img src="img/8.jpeg" alt="4" class="img-fluid">
+            </div>
+        </div>
+</div>
+<!-----schedule section-->
+<div class="jumbotron px-6 text-center schedule bg-light" id="schedule">
+    <h2>Our Schedule</h2>
+    <p class="mb-5">Do not miss anything topic about the event</p>
+    <div class="row  mx-5 row_btn">
+        <div class="col-md-3">
+            <a href="#" class="btn active_btn">
+                <h4>Day 1</h4>
+                <p>May 04 ,2020</p>
+            </a>
+        </div>
+        <div class="col-md-3">
+            <a href="#" class="btn">
+                <h4>Day 2</h4>
+                <p>May 04 ,2020</p>
+            </a>
+        </div>
+        <div class="col-md-3">
+            <a href="#" class="btn">
+                <h4>Day 3</h4>
+                <p>May 04 ,2020</p>
+            </a>
+        </div>
+        <div class="col-md-3">
+            <a href="#" class="btn">
+                <h4>Day 4</h4>
+                <p>May 04 ,2020</p>
+            </a>
+        </div>
+    </div>
+    <!---1-->
+    <div class="row mt-5 p-5 row_box mx-5">
+        <div class="col-md-2">
+            <img src="https://colorlib.com/preview/theme/manup/img/schedule/schedule-1.jpg" alt="sd" class="img-fluid">
+        </div>
+        <div class="col-md-5">
+            <h4>Dealing with Difficult People</h4>
+            <address><i class="fa fa-user" aria-hidden="true"></i> John Smith   /  <i class="fa fa-envelope" aria-hidden="true"></i>  john@Colorlib.com</address>
+        </div>
+        <div class="col-md-5">
+            <p><i class="fa fa-clock-o" aria-hidden="true"></i> 08:00 am - 10:00 AM</p>
+            <address><i class="fa fa-map-marker" aria-hidden="true"></i>   59 Breanne Canyon Suite, USA</address>
+        </div>
+    </div>
+    <!--2-->
+    <div class="row mt-5 p-5 row_box mx-5">
+        <div class="col-md-2">
+            <img src="https://colorlib.com/preview/theme/manup/img/schedule/schedule-2.jpg" alt="sd" class="img-fluid">
+        </div>
+        <div class="col-md-5">
+            <h4>V7 Digital Photo Printing</h4>
+            <address><i class="fa fa-user" aria-hidden="true"></i> John Smith   /  <i class="fa fa-envelope" aria-hidden="true"></i>  john@Colorlib.com</address>
+        </div>
+        <div class="col-md-5">
+            <p><i class="fa fa-clock-o" aria-hidden="true"></i> 08:00 am - 10:00 AM</p>
+            <address><i class="fa fa-map-marker" aria-hidden="true"></i>   59 Breanne Canyon Suite, USA</address>
+        </div>
+    </div>
+    <!--3-->
+    <div class="row mt-5 p-5 row_box mx-5">
+        <div class="col-md-2">
+            <img src="https://colorlib.com/preview/theme/manup/img/schedule/schedule-3.jpg" alt="sd" class="img-fluid">
+        </div>
+        <div class="col-md-5">
+            <h4>Beyond The Naked Eye</h4>
+            <address><i class="fa fa-user" aria-hidden="true"></i> John Smith   /  <i class="fa fa-envelope" aria-hidden="true"></i>  john@Colorlib.com</address>
+        </div>
+        <div class="col-md-5 ">
+            <p><i class="fa fa-clock-o" aria-hidden="true"></i> 08:00 am - 10:00 AM</p>
+            <address><i class="fa fa-map-marker" aria-hidden="true"></i>   59 Breanne Canyon Suite, USA</address>
+        </div>
+    </div>
+    <div class="row mt-5 p-5 row_box mx-5">
+        <div class="col-md-2">
+            <img src="https://colorlib.com/preview/theme/manup/img/schedule/schedule-4.jpg" alt="sd" class="img-fluid">
+        </div>
+        <div class="col-md-5 ">
+            <h4>Influencing The Influencer</h4>
+            <address><i class="fa fa-user" aria-hidden="true"></i> John Smith   /  <i class="fa fa-envelope" aria-hidden="true"></i>  john@Colorlib.com</address>
+        </div>
+        <div class="col-md-5">
+            <p><i class="fa fa-clock-o" aria-hidden="true"></i> 08:00 am - 10:00 AM</p>
+            <address><i class="fa fa-map-marker" aria-hidden="true"></i>   59 Breanne Canyon Suite, USA</address>
+        </div>
+    </div>
+</div>
+<!------Ticket section-->
+<div class="container-fluid text-center ticket px-6" id="ticket">
+    <h2 class="text-light pt-9">Ticket Pricing</h2>
+    <p class="text-light">Get your event ticket plan</p>
+    <div class="row mx-5">
+        <div class="col-md-4 mt-5 mb-5">
+            <div class="card text-center ">
+                <h5 class="card-title my-4">1 DAY PASS</h5>
+                <div class="card-body">
+                    <div class="card_price py-4">
+                        <h4>$<span class="taka">120</span></h4>
+                    </div>
+                    <p class="card-text mt-4">One Day Conference Ticket</p>
+                    <p class="card-text">Coffee-break</p>
+                    <p class="card-text">Lunch and Networking</p>
+                    <p class="card-text">Keynote talk</p>
+                    <p class="card-text mb-5">Talk to the Editors Session</p>
+                </div>
+            </div>
+            <div class="child">
+                <a href="#" class="btn btn-bottom">Get Ticket</a>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card text-center">
+                <h5 class="card-title my-4">FULL PASS</h5>
+                <div class="card-body">
+                    <div class="card_price py-4">
+                        <h4>$<span class="taka">120</span></h4>
+                    </div>
+                    <p class="card-text mt-4">One Day Conference Ticket</p>
+                    <p class="card-text">Coffee-break</p>
+                    <p class="card-text">Lunch and Networking</p>
+                    <p class="card-text">Keynote talk</p>
+                    <p class="card-text">Talk to the Editors Session</p>
+                    <p class="card-text">Lunch and Networking</p>
+                    <p class="card-text mb-5">Keynote talk</p>
+                </div>
+              </div>
+              <div class="child">
+                <a href="#" class="btn btn-bottom">Get Ticket</a>
+            </div>
+        </div>
+        <div class="col-md-4 mt-5 mb-5">
+            <div class="card text-center">
+                <h5 class="card-title my-4">GROUP PASS</h5>
+                <div class="card-body">
+                    <div class="card_price py-4">
+                        <h4>$<span class="taka">120</span></h4>
+                    </div>
+                    <p class="card-text mt-4">One Day Conference Ticket</p>
+                    <p class="card-text">Coffee-break</p>
+                    <p class="card-text">Lunch and Networking</p>
+                    <p class="card-text">Keynote talk</p>
+                    <p class="card-text mb-5">Talk to the Editors Session</p>
+                </div>
+              </div>
+              <div class="child">
+                <a href="#" class="btn btn-bottom">Get Ticket</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!---News section-->
+<div class="jumbotron px-6 " id="news">
+    <h2 class="text-center">Latest News</h2>
+    <p class="mb-5 text-center">Do not miss anything topic about the event</p>
+    <div class="row mx-5 text-light">
+        <div class="col-md-6 mother">
+            <div class="img-jumbotron p-4 mb-5">
+                <a href="#" class="btn btn-ticket">Marketing</a>
+                <div class="child_news">
+                    <h5>Improve You Business Cards And Enchan Your Sales</h5>
+                    <p><i class="fa fa-clock-o" aria-hidden="true"></i> 08:00 am - 10:00 AM</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="row">
+                <div class="col-md-12 mb-5">
+                    <div class="img-jumbotron1 p-4">
+                        <a href="#" class="btn btn-ticket ">Marketing</a>
+                        <div class="child_news">
+                            <h5>Improve You Business Cards And Enchan Your Sales</h5>
+                            <p><i class="fa fa-clock-o" aria-hidden="true"></i> 08:00 am - 10:00 AM</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="img-jumbotron2 p-4">
+                        <a href="#" class="btn btn-ticket">Marketing</a>
+                        <div class="child_news">
+                            <h5>Improve You Business Cards And Enchan Your Sales</h5>
+                            <p><i class="fa fa-clock-o" aria-hidden="true"></i> 08:00 am - 10:00 AM</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-----location section-->
+<div class="jumbotron location px-6" id="location">
+    <div class="row mx-5">
+        <div class="col-md-6">
+            <h2>Location</h2>
+            <p>Get directions to our event center</p>
+            <p>Address:</p>
+            <address>01 Pascale Springs Apt. 339, NY City
+                United State</address>
+            <p>Phone:</p>
+            <cite>(+12)-345-67-8910</cite>
+            <p>Email:</p>
+            <cite>suhin400@gmail.com</cite>
+        </div>
+        <div class="col-md-6">
+            <h3>My Google Maps Demo</h3>
+            <!--The div element for the map -->
+            <div id="map"></div>
+        </div>
+    </div>
+</div>
+<!--footer-->
+<footer class="bg-dark text-light text-center py-5" id="footer">
+    <i class="fa fa-microphone mr-2 fa-2x" aria-hidden="true"></i>
+    <a class="navbar-brand text-light" href="#">Standup</a>
+    <br>
+    <small class="text-muted">Copyright ©2020 All rights reserved By Shuhin</small>
+    <br>
+    <a href="#"><i class="fa fa-facebook p-2 mt-2 " aria-hidden="true"></i></a>
+    <a href="#"><i class="fa fa-instagram p-2" aria-hidden="true"></i></a>
+    <a href="#"><i class="fa fa-github p-2" aria-hidden="true"></i></a>
+</footer>
+
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBdlQYXN5rLF0MiP68xIzUEDQ2LlLLd5Nc&callback=initMap">
+    </script>
+    <!---jquery/bootstrap---->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <!--javascript---->
+    <script src="main.js"></script>
+</body>
+</html>
